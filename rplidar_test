@@ -1,0 +1,4 @@
+# using rviz2 to preview laserscan.
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 laser map
+
+# laser is header frame_id, map is the world map.
