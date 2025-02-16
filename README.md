@@ -4,7 +4,7 @@ This is the code of Breaking Leg project.
 
 In this project, we have an gym environment for autonomous breaking leg car, to setup you need:
 
-```
+```python
 import gymnasium as gym
 import breaking_leg.rl_goal_environment
 
@@ -25,7 +25,7 @@ Action space run from -1 to 1.
 reward return all -1 for every situation, you need to config by yourself using goal and observation_rgb. No terminated!!!
 
 ## Basic usage
-```
+```python
 import gymnasium as gym
 import breaking_leg.rl_goal_environment
 
